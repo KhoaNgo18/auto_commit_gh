@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Path to the Python script
-SCRIPT_PATH="/home/khoa/Khoa/my-project/auto-commit-github/main.py"
-HOUR=15
+SCRIPT_PATH="/home/ubuntu/khoa/others/auto_commit_gh/main.py"
+HOUR=20
 MINUTE=00
 # Cron job command
 CRON_JOB="$MINUTE $HOUR * * * python3 $SCRIPT_PATH > auto_commit.log 2>&1"
